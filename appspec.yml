@@ -18,7 +18,6 @@ hooks:
   AfterInstall:
     - location: deploy/afterInstall.sh
       timeout: 500
-      runas: devuser
   ApplicationStart:
     - location: deploy/applicationStart.sh
       timeout: 10
